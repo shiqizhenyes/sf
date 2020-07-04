@@ -4,7 +4,7 @@ A Flutter screen fit plugin. This tool will allow your app to perform the same o
 
 ## 效果图
 
-<img src="img/img01.png" width = "600" height = "100%" alt="" align=center />
+<img src="https://raw.githubusercontent.com/shiqizhenyes/sf/master/img/img01.png" width = "600" height = "100%" alt="" align=center />
 
 
 
