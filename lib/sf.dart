@@ -4,6 +4,10 @@ import 'dart:ui';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
+
+export 'dp.dart';
+export 'sp.dart';
+
 var sf = Sf();
 
 ///屏幕适配
@@ -36,6 +40,7 @@ class Sf {
   double _textScaleFactor = DEFAULT_SF;
 
   double _fitPixelRatio;
+  double _fitTextScale;
 
   ///初始化
   Sf init(BuildContext context) {
@@ -62,8 +67,10 @@ class Sf {
   }
 
   double sp(double spValue) {
-
+    _fitTextScale = _w / (_wPx / _devicePixelRatio);
+    var fSp = spValue / _fitTextScale * _textScaleFactor;
+    print("spValue $spValue fSp $fSp _fitTextScale $_fitTextScale _textScaleFactor $_textScaleFactor");
+    return fSp;
   }
-
 
 }

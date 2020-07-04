@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:sf/dp.dart';
 import 'package:sf/sf.dart';
 
 void main() {
@@ -51,9 +50,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.start,
+        body: Wrap(
             children: <Widget>[
               Container(
                 color: Colors.pink,
@@ -64,7 +61,13 @@ class _MyAppState extends State<MyApp> {
                 color: Colors.green,
                 width: sf.dp(Dp.$175),
                 height: sf.dp(Dp.$200),
-              )
+              ),
+              Container(
+                color: Colors.orange,
+                width: sf.dp(Dp.$20),
+                height: sf.dp(Dp.$60),
+              ),
+              Text("A 测", style: TextStyle(fontSize: sf.sp(Sp.$60)),)
             ],
           ),
         ),
