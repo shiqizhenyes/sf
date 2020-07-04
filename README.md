@@ -2,13 +2,30 @@
 
 A Flutter screen fit plugin.
 
-## Getting Started
+## 效果图
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+<img src="img/img01.png" width = "600" height = "100%" alt="" align=center />
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+##  使用
+
+
+````dart
+
+///初始化 
+///sf.init(context).fit(设计稿宽度, 设计稿高度)
+sf.init(context).fit(375, 1440);
+
+///适配宽度高度
+/// Dp 提供 0-375 的默认值，如果需要可以自己填写
+/// eg:sf.dp(10.0)
+sf.dp(Dp.$200)
+
+
+///适配字文字
+/// Sp 默认提供 5-60 常用值，如果需要可以自行填写
+/// eg:sf.sp(12.0)
+sf.sp(Sp.$60)
+
+
+````
