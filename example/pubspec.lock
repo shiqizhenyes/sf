@@ -119,9 +119,9 @@ packages:
   sf:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: sf
+      url: "https://pub.flutter-io.cn"
+    source: hosted
     version: "0.0.1"
   sky_engine:
     dependency: transitive

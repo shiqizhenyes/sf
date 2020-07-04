@@ -7,8 +7,14 @@ A Flutter screen fit plugin.
 <img src="img/img01.png" width = "600" height = "100%" alt="" align=center />
 
 
+
 ##  使用
 
+    1、依赖
+    在pubspec.yaml里添加
+    sf: ^0.0.1
+
+    2、使用
 
 ````dart
 
