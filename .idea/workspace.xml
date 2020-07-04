@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eDNFfyJXfXavUuir2IiglqnNcs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,22 +60,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1712" height="236" key="GridCell.Tab.0.bottom" timestamp="1593857629101">
+    <state width="1712" height="236" key="GridCell.Tab.0.bottom" timestamp="1593858195361">
       <screen x="35" y="23" width="1885" height="1177" />
     </state>
-    <state width="1712" height="236" key="GridCell.Tab.0.bottom/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629101" />
-    <state width="1712" height="236" key="GridCell.Tab.0.center" timestamp="1593857629100">
+    <state width="1712" height="236" key="GridCell.Tab.0.bottom/35.23.1885.1177@35.23.1885.1177" timestamp="1593858195361" />
+    <state width="1712" height="236" key="GridCell.Tab.0.center" timestamp="1593858195360">
       <screen x="35" y="23" width="1885" height="1177" />
     </state>
-    <state width="1712" height="236" key="GridCell.Tab.0.center/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629100" />
-    <state width="1712" height="236" key="GridCell.Tab.0.left" timestamp="1593857629099">
+    <state width="1712" height="236" key="GridCell.Tab.0.center/35.23.1885.1177@35.23.1885.1177" timestamp="1593858195360" />
+    <state width="1712" height="236" key="GridCell.Tab.0.left" timestamp="1593858195360">
       <screen x="35" y="23" width="1885" height="1177" />
     </state>
-    <state width="1712" height="236" key="GridCell.Tab.0.left/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629099" />
-    <state width="1712" height="236" key="GridCell.Tab.0.right" timestamp="1593857629100">
+    <state width="1712" height="236" key="GridCell.Tab.0.left/35.23.1885.1177@35.23.1885.1177" timestamp="1593858195360" />
+    <state width="1712" height="236" key="GridCell.Tab.0.right" timestamp="1593858195360">
       <screen x="35" y="23" width="1885" height="1177" />
     </state>
-    <state width="1712" height="236" key="GridCell.Tab.0.right/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629100" />
+    <state width="1712" height="236" key="GridCell.Tab.0.right/35.23.1885.1177@35.23.1885.1177" timestamp="1593858195360" />
     <state x="623" y="436" key="com.intellij.ide.util.TipDialog" timestamp="1593852109156">
       <screen x="35" y="23" width="1885" height="1177" />
     </state>
