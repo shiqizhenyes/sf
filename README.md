@@ -1,6 +1,6 @@
 # sf
 
-A Flutter screen fit plugin.
+A Flutter screen fit plugin. This tool will allow your app to perform the same on different resolutions of the screen!
 
 ## 效果图
 

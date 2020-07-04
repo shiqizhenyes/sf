@@ -1,6 +1,6 @@
 name: sf
 description: A Flutter screen fit plugin. This tool will allow your app to perform the same on different resolutions of the screen!
-version: 0.0.1
+version: 0.0.2
 author: zack
 homepage: https://github.com/shiqizhenyes/sf
 
