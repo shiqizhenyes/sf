@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55d0a4bc-babe-4a59-9bc0-e1a2930cd2cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="4_WVGA_Nexus_S_API_22" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eDNFfyJXfXavUuir2IiglqnNcs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.example/lib/main.dart">
+    <configuration name="tests in sf_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/sf_test.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter Test.tests in sf_test.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55d0a4bc-babe-4a59-9bc0-e1a2930cd2cd" name="Default Changelist" comment="" />
+      <created>1593852102210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593852102210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1712" height="236" key="GridCell.Tab.0.bottom" timestamp="1593857629101">
+      <screen x="35" y="23" width="1885" height="1177" />
+    </state>
+    <state width="1712" height="236" key="GridCell.Tab.0.bottom/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629101" />
+    <state width="1712" height="236" key="GridCell.Tab.0.center" timestamp="1593857629100">
+      <screen x="35" y="23" width="1885" height="1177" />
+    </state>
+    <state width="1712" height="236" key="GridCell.Tab.0.center/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629100" />
+    <state width="1712" height="236" key="GridCell.Tab.0.left" timestamp="1593857629099">
+      <screen x="35" y="23" width="1885" height="1177" />
+    </state>
+    <state width="1712" height="236" key="GridCell.Tab.0.left/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629099" />
+    <state width="1712" height="236" key="GridCell.Tab.0.right" timestamp="1593857629100">
+      <screen x="35" y="23" width="1885" height="1177" />
+    </state>
+    <state width="1712" height="236" key="GridCell.Tab.0.right/35.23.1885.1177@35.23.1885.1177" timestamp="1593857629100" />
+    <state x="623" y="436" key="com.intellij.ide.util.TipDialog" timestamp="1593852109156">
+      <screen x="35" y="23" width="1885" height="1177" />
+    </state>
+    <state x="623" y="436" key="com.intellij.ide.util.TipDialog/35.23.1885.1177@35.23.1885.1177" timestamp="1593852109156" />
+  </component>
+</project>
