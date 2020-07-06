@@ -12,7 +12,7 @@ A Flutter screen fit plugin. This tool will allow your app to perform the same o
 
     1、依赖
     在pubspec.yaml里添加
-    sf: ^0.0.1
+    sf: ^0.0.4
 
     2、使用
 
@@ -24,14 +24,14 @@ sf.init(context).fit(375, 1440);
 
 ///适配宽度高度
 /// Dp 提供 0-375 的默认值，如果需要可以自己填写
-/// eg:sf.dp(10.0)
+/// eg:sf.dp(10.0) 或 100.$dp
 sf.dp(Dp.$200)
-
+200.$dp
 
 ///适配字文字
 /// Sp 默认提供 5-60 常用值，如果需要可以自行填写
-/// eg:sf.sp(12.0)
+/// eg:sf.sp(12.0) 或 100.$sp
 sf.sp(Sp.$60)
-
+60.$sp
 
 ````

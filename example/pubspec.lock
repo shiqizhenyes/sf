@@ -119,10 +119,10 @@ packages:
   sf:
     dependency: "direct main"
     description:
-      name: sf
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.0.1"
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.4"
   sky_engine:
     dependency: transitive
     description: flutter

@@ -1,3 +1,7 @@
+export 'sf.dart';
+
+import 'package:sf/sp.dart';
+
 class Dp {
   static double $0 = 0.0;
   static double $1 = 1.0;
@@ -375,4 +379,10 @@ class Dp {
   static double $373 = 373.0;
   static double $374 = 374.0;
   static double $375 = 375.0;
+}
+
+extension dp on num {
+  double get $dp {
+    return sf.dp(this.toDouble());
+  }
 }

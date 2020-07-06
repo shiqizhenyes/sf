@@ -1,5 +1,8 @@
-class Sp {
+export 'sf.dart';
 
+import 'package:sf/dp.dart';
+
+class Sp {
   static double $5 = 5.0;
   static double $6 = 6.0;
   static double $7 = 7.0;
@@ -56,5 +59,10 @@ class Sp {
   static double $58 = 58.0;
   static double $59 = 59.0;
   static double $60 = 60.0;
+}
 
+extension sp on num {
+  double get $sp {
+    return sf.sp(this.toDouble());
+  }
 }

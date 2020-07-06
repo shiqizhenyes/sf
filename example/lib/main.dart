@@ -14,7 +14,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   String _platformVersion = 'Unknown';
 
   @override
@@ -51,26 +50,35 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Wrap(
-            children: <Widget>[
-              Container(
-                color: Colors.pink,
-                width: sf.dp(Dp.$200),
-                height: sf.dp(Dp.$200),
-              ),
-              Container(
-                color: Colors.green,
-                width: sf.dp(Dp.$175),
-                height: sf.dp(Dp.$200),
-              ),
-              Container(
-                color: Colors.orange,
-                width: sf.dp(Dp.$20),
-                height: sf.dp(Dp.$60),
-              ),
-              Text("A 测", style: TextStyle(fontSize: sf.sp(Sp.$60)),)
-            ],
-          ),
+          children: <Widget>[
+            Container(
+              color: Colors.pink,
+              width: sf.dp(Dp.$200),
+              height: sf.dp(Dp.$200),
+            ),
+            Container(
+              color: Colors.green,
+              width: sf.dp(Dp.$175),
+              height: sf.dp(Dp.$200),
+            ),
+            Container(
+              color: Colors.orange,
+              width: sf.dp(Dp.$20),
+              height: sf.dp(Dp.$60),
+            ),
+            Container(
+              color: Colors.pink,
+              width: 20.$dp,
+              height: 60.$dp,
+            ),
+            Text("A 测", style: TextStyle(fontSize: sf.sp(Sp.$60))),
+            Text("A 测",
+                style: TextStyle(
+                  fontSize: 60.$sp,
+                ))
+          ],
         ),
+      ),
     );
   }
 }
